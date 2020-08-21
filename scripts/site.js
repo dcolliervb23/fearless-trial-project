@@ -5,5 +5,6 @@ $(document).ready(function(){
             $("#counter").text(response.value);
         });    
     })
+    $('#incrementCounter').click();
 
   });
